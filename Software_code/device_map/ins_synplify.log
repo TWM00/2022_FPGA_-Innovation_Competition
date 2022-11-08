@@ -1,0 +1,843 @@
+#Build: Synplify Pro (R) P-2019.03P-Beta2, Build 3717R, Feb 25 2019
+#install: C:\pango\PDS_2019.1-patch2\syn
+#OS: Windows 8 6.2
+#Hostname: PC-201805041311
+
+# Wed Jun 19 15:28:18 2019
+
+#Implementation: pango_rev
+
+
+Copyright (C) 1994-2019 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: P-2019.03P-Beta2
+Install: C:\pango\PDS_2019.1-patch2\syn
+OS: Windows 6.2
+
+Hostname: PC-201805041311
+
+Implementation : pango_rev
+Synopsys HDL Compiler, Version comp2019q1p1, Build 007R, Built Feb 26 2019 11:45:06
+
+@N|Running in 64-bit mode
+###########################################################[
+
+Copyright (C) 1994-2019 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: P-2019.03P-Beta2
+Install: C:\pango\PDS_2019.1-patch2\syn
+OS: Windows 6.2
+
+Hostname: PC-201805041311
+
+Implementation : pango_rev
+Synopsys Verilog Compiler, Version comp2019q1p1, Build 007R, Built Feb 26 2019 11:45:06
+
+@N|Running in 64-bit mode
+@I::"C:\pango\PDS_2019.1-patch2\syn\lib\generic\logos.v" (library work)
+@I::"C:\pango\PDS_2019.1-patch2\syn\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"C:\pango\PDS_2019.1-patch2\syn\lib\vlog\umr_capim.v" (library snps_haps)
+@I::"C:\pango\PDS_2019.1-patch2\syn\lib\vlog\scemi_objects.v" (library snps_haps)
+@I::"C:\pango\PDS_2019.1-patch2\syn\lib\vlog\scemi_pipes.svh" (library snps_haps)
+@I::"C:\pango\PDS_2019.1-patch2\bin\pango\debug_core_rtls\ips_dbc_cfg_reg_file_v1_0.v" (library work)
+@I::"C:\pango\PDS_2019.1-patch2\bin\pango\debug_core_rtls\ips_dbc_compare_256b_v1_0.v" (library work)
+@I::"C:\pango\PDS_2019.1-patch2\bin\pango\debug_core_rtls\ips_dbc_data_capture_mem_v1_0.v" (library work)
+@I::"C:\pango\PDS_2019.1-patch2\bin\pango\debug_core_rtls\ips_dbc_debug_core_v1_3.v" (library work)
+@I::"C:\pango\PDS_2019.1-patch2\bin\pango\debug_core_rtls\ips_dbc_hub_decode_v1_2.v" (library work)
+@I::"C:\pango\PDS_2019.1-patch2\bin\pango\debug_core_rtls\ips_dbc_rd_addr_gen_v1_3.v" (library work)
+@I::"C:\pango\PDS_2019.1-patch2\bin\pango\debug_core_rtls\ips_dbc_storage_condition_v1_3.v" (library work)
+@W: CG1337 :"C:\pango\PDS_2019.1-patch2\bin\pango\debug_core_rtls\ips_dbc_storage_condition_v1_3.v":621:7:621:18|Net ram_wren_win is not declared.
+@W: CG1337 :"C:\pango\PDS_2019.1-patch2\bin\pango\debug_core_rtls\ips_dbc_storage_condition_v1_3.v":622:7:622:18|Net ram_wren_nsa is not declared.
+@W: CG1337 :"C:\pango\PDS_2019.1-patch2\bin\pango\debug_core_rtls\ips_dbc_storage_condition_v1_3.v":627:7:627:21|Net trig_mask_nsa_c is not declared.
+@I::"C:\pango\PDS_2019.1-patch2\bin\pango\debug_core_rtls\ips_dbc_storage_qualification_v1_2.v" (library work)
+@I::"C:\pango\PDS_2019.1-patch2\bin\pango\debug_core_rtls\ips_dbc_trig_unit_v1_3.v" (library work)
+@I::"C:\pango\PDS_2019.1-patch2\bin\pango\debug_core_rtls\ips_dbc_trigger_condition_v1_3.v" (library work)
+@I::"C:\pango\PDS_2019.1-patch2\bin\pango\debug_core_rtls\ips_dbc_trigger_output_v1_2.v" (library work)
+@I::"C:\pango\PDS_2019.1-patch2\bin\pango\debug_core_rtls\ips_jtag_hub_v1_2.v" (library work)
+@I::"I:\example_ziguang\demo\12_1_hdmi_test _char\device_map\ins_rev\cores.v" (library work)
+Verilog syntax check successful!
+Selecting top level module CORES
+@N: CG364 :"C:\pango\PDS_2019.1-patch2\syn\lib\generic\logos.v":2601:7:2601:22|Synthesizing module GTP_SCANCHAIN_E1 in library work.
+Running optimization stage 1 on GTP_SCANCHAIN_E1 .......
+Running optimization stage 1 on ips_jtag_hub_v1_2_1s_1s .......
+Running optimization stage 1 on ips_dbc_hub_decode_v1_2_1s_0s .......
+Running optimization stage 1 on ips_dbc_cfg_reg_file_v1_0_1s_151s .......
+Running optimization stage 1 on subtract_16b .......
+Running optimization stage 1 on ips_dbc_compare_256b_v1_0 .......
+Running optimization stage 1 on ips_dbc_trig_unit_v1_3_Z1 .......
+Running optimization stage 1 on ips_dbc_cfg_reg_file_v1_0_1s_3s .......
+Running optimization stage 1 on ips_dbc_trigger_condition_v1_3_1s_0s_0s_1s_1s_3s_0s_1s_1s .......
+Running optimization stage 1 on ips_dbc_cfg_reg_file_v1_0_1s_15s .......
+Running optimization stage 1 on ips_dbc_storage_condition_v1_3_0s_1s_10s_15s_0s .......
+Running optimization stage 1 on ips_dbc_data_capture_mem_v1_0_10s_51s .......
+Running optimization stage 1 on ips_dbc_rd_addr_gen_v1_3_Z2 .......
+Running optimization stage 1 on ips_dbc_debug_core_v1_3_Z3 .......
+@N: CG364 :"I:\example_ziguang\demo\12_1_hdmi_test _char\device_map\ins_rev\cores.v":1:7:1:11|Synthesizing module CORES in library work.
+@W: CG781 :"I:\example_ziguang\demo\12_1_hdmi_test _char\device_map\ins_rev\cores.v":118:1:118:18|Input TCK on instance u_GTP_SCANCHAIN_PG is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"I:\example_ziguang\demo\12_1_hdmi_test _char\device_map\ins_rev\cores.v":118:1:118:18|Input TDI on instance u_GTP_SCANCHAIN_PG is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"I:\example_ziguang\demo\12_1_hdmi_test _char\device_map\ins_rev\cores.v":118:1:118:18|Input TMS on instance u_GTP_SCANCHAIN_PG is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+Running optimization stage 1 on CORES .......
+Running optimization stage 2 on CORES .......
+@W: CL156 :"I:\example_ziguang\demo\12_1_hdmi_test _char\device_map\ins_rev\cores.v":257:15:257:25|*Input hub_tdo[15:0] to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+Running optimization stage 2 on ips_dbc_debug_core_v1_3_Z3 .......
+Running optimization stage 2 on ips_dbc_rd_addr_gen_v1_3_Z2 .......
+Running optimization stage 2 on ips_dbc_data_capture_mem_v1_0_10s_51s .......
+Running optimization stage 2 on ips_dbc_storage_condition_v1_3_0s_1s_10s_15s_0s .......
+Running optimization stage 2 on ips_dbc_cfg_reg_file_v1_0_1s_15s .......
+Running optimization stage 2 on ips_dbc_trigger_condition_v1_3_1s_0s_0s_1s_1s_3s_0s_1s_1s .......
+Running optimization stage 2 on ips_dbc_cfg_reg_file_v1_0_1s_3s .......
+Running optimization stage 2 on ips_dbc_trig_unit_v1_3_Z1 .......
+Running optimization stage 2 on subtract_16b .......
+Running optimization stage 2 on ips_dbc_compare_256b_v1_0 .......
+Running optimization stage 2 on ips_dbc_cfg_reg_file_v1_0_1s_151s .......
+Running optimization stage 2 on ips_dbc_hub_decode_v1_2_1s_0s .......
+Running optimization stage 2 on ips_jtag_hub_v1_2_1s_1s .......
+Running optimization stage 2 on GTP_SCANCHAIN_E1 .......
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: I:\example_ziguang\demo\12_1_hdmi_test _char\device_map\ins_rev\pango_rev\synwork\layer0.rt.csv
+
+
+At c_ver Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 104MB peak: 105MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Wed Jun 19 15:28:20 2019
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2019 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: P-2019.03P-Beta2
+Install: C:\pango\PDS_2019.1-patch2\syn
+OS: Windows 6.2
+
+Hostname: PC-201805041311
+
+Implementation : pango_rev
+Synopsys Synopsys Netlist Linker, Version comp2019q1p1, Build 007R, Built Feb 26 2019 11:45:06
+
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 90MB peak: 91MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Wed Jun 19 15:28:20 2019
+
+###########################################################]
+
+For a summary of runtime and memory usage for all design units, please see file:
+==========================================================
+@L: I:\example_ziguang\demo\12_1_hdmi_test _char\device_map\ins_rev\pango_rev\synwork\cores_comp.rt.csv
+
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 19MB peak: 19MB)
+
+Process took 0h:00m:02s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Wed Jun 19 15:28:20 2019
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2019 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: P-2019.03P-Beta2
+Install: C:\pango\PDS_2019.1-patch2\syn
+OS: Windows 6.2
+
+Hostname: PC-201805041311
+
+Implementation : pango_rev
+Synopsys Synopsys Netlist Linker, Version comp2019q1p1, Build 007R, Built Feb 26 2019 11:45:06
+
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 91MB peak: 92MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Wed Jun 19 15:28:22 2019
+
+###########################################################]
+Premap Report
+
+# Wed Jun 19 15:28:22 2019
+
+
+Copyright (C) 1994-2019 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: P-2019.03P-Beta2
+Install: C:\pango\PDS_2019.1-patch2\syn
+OS: Windows 6.2
+
+Hostname: PC-201805041311
+
+Implementation : pango_rev
+Synopsys Generic Technology Pre-mapping, Version map2019q1p1, Build 1238R, Built Mar 15 2019 09:38:46
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 116MB peak: 116MB)
+
+Reading constraint file: I:\example_ziguang\demo\12_1_hdmi_test _char\device_map\ins_rev\cores.fdc
+@L: I:\example_ziguang\demo\12_1_hdmi_test _char\device_map\ins_rev\pango_rev\cores_scck.rpt 
+Printing clock  summary report in "I:\example_ziguang\demo\12_1_hdmi_test _char\device_map\ins_rev\pango_rev\cores_scck.rpt" file 
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 130MB peak: 130MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 130MB peak: 130MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 131MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+Starting clock optimization phase (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 212MB peak: 212MB)
+
+
+Finished clock optimization phase (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 212MB peak: 212MB)
+
+
+Starting clock optimization report phase (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 212MB peak: 212MB)
+
+
+Finished clock optimization report phase (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 212MB peak: 212MB)
+
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 212MB peak: 212MB)
+
+
+
+Clock Summary
+******************
+
+          Start                                 Requested     Requested     Clock        Clock                   Clock
+Level     Clock                                 Frequency     Period        Type         Group                   Load 
+----------------------------------------------------------------------------------------------------------------------
+0 -       DebugCore_JCLK                        20.0 MHz      50.000        declared     DebugCoreClockGroup     346  
+                                                                                                                      
+0 -       System                                1.0 MHz       1000.000      system       system_clkgroup         0    
+                                                                                                                      
+0 -       CORES|fla0_clk                        1.0 MHz       1000.000      inferred     Inferred_clkgroup_0     805  
+                                                                                                                      
+0 -       CORES|capture_wire_inferred_clock     1.0 MHz       1000.000      inferred     Inferred_clkgroup_1     11   
+======================================================================================================================
+
+
+
+Clock Load Summary
+***********************
+
+                                      Clock     Source                                            Clock Pin                                                      Non-clock Pin     Non-clock Pin                   
+Clock                                 Load      Pin                                               Seq Example                                                    Seq Example       Comb Example                    
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+DebugCore_JCLK                        346       u_GTP_SCANCHAIN_PG.TCK_USER(GTP_SCANCHAIN_E1)     u_debug_core_0.u_rd_addr_gen.tdo_mux_d2.C                      -                 u_jtag_hub.un1_drck_in.I[0](inv)
+                                                                                                                                                                                                                   
+System                                0         -                                                 -                                                              -                 -                               
+                                                                                                                                                                                                                   
+CORES|fla0_clk                        805       fla0_clk(port)                                    u_debug_core_0.resetn.C                                        -                 -                               
+                                                                                                                                                                                                                   
+CORES|capture_wire_inferred_clock     11        u_GTP_SCANCHAIN_PG.CAPDR(GTP_SCANCHAIN_E1)        u_debug_core_0.u_hub_data_decode.id_sample\.conf_id[4:0].C     -                 -                               
+===================================================================================================================================================================================================================
+
+@W: MT529 :|Found inferred clock CORES|fla0_clk which controls 805 sequential elements including u_debug_core_0.u0_trig_unit.match_single_to_16_60. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+
+ICG Latch Removal Summary:
+Number of ICG latches removed: 0
+Number of ICG latches not removed:	0
+
+
+@S |Clock Optimization Summary
+
+
+
+#### START OF PREMAP CLOCK OPTIMIZATION REPORT #####[
+
+2 non-gated/non-generated clock tree(s) driving 1101 clock pin(s) of sequential element(s)
+3 gated/generated clock tree(s) driving 13 clock pin(s) of sequential element(s)
+0 instances converted, 13 sequential instances remain driven by gated/generated clocks
+
+================================= Non-Gated/Non-Generated Clocks ==================================
+Clock Tree ID     Driving Element                 Drive Element Type     Fanout     Sample Instance
+---------------------------------------------------------------------------------------------------
+@KP:ckid0_0       u_GTP_SCANCHAIN_PG.TCK_USER     GTP_SCANCHAIN_E1       346        ENCRYPTED      
+@KP:ckid0_1       fla0_clk                        port                   755        ENCRYPTED      
+===================================================================================================
+============================================================ Gated/Generated Clocks ============================================================
+Clock Tree ID     Driving Element              Drive Element Type     Unconverted Fanout     Sample Instance     Explanation                    
+------------------------------------------------------------------------------------------------------------------------------------------------
+@KP:ckid0_2       ENCRYPTED                    and                    1                      ENCRYPTED           Clock source is invalid for GCC
+@KP:ckid0_3       ENCRYPTED                    and                    1                      ENCRYPTED           Clock source is invalid for GCC
+@KP:ckid0_4       u_GTP_SCANCHAIN_PG.CAPDR     GTP_SCANCHAIN_E1       11                     ENCRYPTED           Clock source is invalid for GCC
+================================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######
+
+@N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
+Finished Pre Mapping Phase.
+@N: BN225 |Writing default property annotation file I:\example_ziguang\demo\12_1_hdmi_test _char\device_map\ins_rev\pango_rev\cores.sap.
+
+Starting constraint checker (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 213MB peak: 213MB)
+
+
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 213MB peak: 213MB)
+
+
+Finished constraint checker (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 215MB peak: 215MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 135MB peak: 216MB)
+
+Process took 0h:00m:02s realtime, 0h:00m:02s cputime
+# Wed Jun 19 15:28:24 2019
+
+###########################################################]
+Map & Optimize Report
+
+# Wed Jun 19 15:28:25 2019
+
+
+Copyright (C) 1994-2019 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: P-2019.03P-Beta2
+Install: C:\pango\PDS_2019.1-patch2\syn
+OS: Windows 6.2
+
+Hostname: PC-201805041311
+
+Implementation : pango_rev
+Synopsys Generic Technology Mapper, Version map2019q1p1, Build 1238R, Built Mar 15 2019 09:38:46
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 116MB peak: 116MB)
+
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 117MB peak: 119MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 117MB peak: 119MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 121MB peak: 121MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 123MB peak: 124MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 206MB peak: 206MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:01s; Memory used current: 211MB peak: 211MB)
+
+
+Starting factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 216MB peak: 216MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 222MB peak: 222MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 290MB peak: 290MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 291MB peak: 291MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 291MB peak: 291MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 291MB peak: 291MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 291MB peak: 291MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 296MB peak: 296MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:03s		    22.41ns		 873 /      1024
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 296MB peak: 296MB)
+
+@N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 297MB peak: 297MB)
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:04s; Memory used current: 226MB peak: 297MB)
+
+Writing Analyst data base I:\example_ziguang\demo\12_1_hdmi_test _char\device_map\ins_rev\pango_rev\synwork\cores_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:06s; Memory used current: 299MB peak: 300MB)
+
+Writing Verilog Simulation files
+
+Writing scf file... (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:08s; Memory used current: 333MB peak: 333MB)
+
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+
+Finished Writing Verilog Simulation files (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:08s; Memory used current: 333MB peak: 333MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:08s; Memory used current: 295MB peak: 333MB)
+
+@N: MT615 |Found clock DebugCore_JCLK with period 50.00ns 
+@W: MT420 |Found inferred clock CORES|fla0_clk with period 1000.00ns. Please declare a user-defined clock on port fla0_clk.
+@W: MT420 |Found inferred clock CORES|capture_wire_inferred_clock with period 1000.00ns. Please declare a user-defined clock on net capture_wire.
+
+
+##### START OF TIMING REPORT #####[
+# Timing report written on Wed Jun 19 15:28:34 2019
+#
+
+
+Top view:               CORES
+Requested Frequency:    1.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    I:\example_ziguang\demo\12_1_hdmi_test _char\device_map\ins_rev\cores.fdc
+                       
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: 23.265
+
+                                      Requested     Estimated     Requested     Estimated                 Clock        Clock              
+Starting Clock                        Frequency     Frequency     Period        Period        Slack       Type         Group              
+------------------------------------------------------------------------------------------------------------------------------------------
+CORES|capture_wire_inferred_clock     1.0 MHz       NA            1000.000      NA            NA          inferred     Inferred_clkgroup_1
+CORES|fla0_clk                        1.0 MHz       345.7 MHz     1000.000      2.893         997.107     inferred     Inferred_clkgroup_0
+DebugCore_JCLK                        20.0 MHz      124.7 MHz     50.000        8.017         23.265      declared     DebugCoreClockGroup
+System                                1.0 MHz       1.1 MHz       1000.000      951.561       48.439      system       system_clkgroup    
+==========================================================================================================================================
+Estimated period and frequency reported as NA means no slack depends directly on the clock waveform
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                                |    rise  to  rise     |    fall  to  fall   |    rise  to  fall    |    fall  to  rise 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                           Ending                             |  constraint  slack    |  constraint  slack  |  constraint  slack   |  constraint  slack
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+System                             DebugCore_JCLK                     |  50.000      48.439   |  No paths    -      |  No paths    -       |  No paths    -    
+DebugCore_JCLK                     System                             |  50.000      47.825   |  No paths    -      |  No paths    -       |  No paths    -    
+DebugCore_JCLK                     DebugCore_JCLK                     |  50.000      41.983   |  No paths    -      |  25.000      23.265  |  No paths    -    
+DebugCore_JCLK                     CORES|fla0_clk                     |  Diff grp    -        |  No paths    -      |  No paths    -       |  No paths    -    
+DebugCore_JCLK                     CORES|capture_wire_inferred_clock  |  No paths    -        |  No paths    -      |  No paths    -       |  Diff grp    -    
+CORES|fla0_clk                     DebugCore_JCLK                     |  Diff grp    -        |  No paths    -      |  No paths    -       |  No paths    -    
+CORES|fla0_clk                     CORES|fla0_clk                     |  1000.000    997.107  |  No paths    -      |  No paths    -       |  No paths    -    
+CORES|capture_wire_inferred_clock  DebugCore_JCLK                     |  Diff grp    -        |  No paths    -      |  No paths    -       |  No paths    -    
+===============================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: CORES|fla0_clk
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                        Starting                                                       Arrival            
+Instance                                                Reference          Type           Pin     Net                  Time        Slack  
+                                                        Clock                                                                             
+------------------------------------------------------------------------------------------------------------------------------------------
+u_debug_core_0.u_Storage_Condition.counter_win_p[6]     CORES|fla0_clk     GTP_DFF_PE     Q       counter_win_p[6]     0.290       997.107
+u_debug_core_0.u_Storage_Condition.counter_win_p[5]     CORES|fla0_clk     GTP_DFF_PE     Q       counter_win_p[5]     0.290       997.163
+u_debug_core_0.u_Storage_Condition.address_nsa[6]       CORES|fla0_clk     GTP_DFF_C      Q       address_nsa[6]       0.290       997.302
+u_debug_core_0.u_Storage_Condition.address_nsa[5]       CORES|fla0_clk     GTP_DFF_C      Q       address_nsa[5]       0.290       997.306
+u_debug_core_0.u_Storage_Condition.counter_win_p[1]     CORES|fla0_clk     GTP_DFF_PE     Q       counter_win_p[1]     0.290       997.403
+u_debug_core_0.u_Storage_Condition.address_nsa[4]       CORES|fla0_clk     GTP_DFF_C      Q       address_nsa[4]       0.290       997.416
+u_debug_core_0.u_Storage_Condition.address_nsa[2]       CORES|fla0_clk     GTP_DFF_C      Q       address_nsa[2]       0.290       997.471
+u_debug_core_0.rst_trig[1]                              CORES|fla0_clk     GTP_DFF_P      Q       rst_trig[1]          0.290       997.529
+u_debug_core_0.u_Storage_Condition.address_nsa[7]       CORES|fla0_clk     GTP_DFF_C      Q       address_nsa[7]       0.290       997.546
+u_debug_core_0.u_Storage_Condition.counter_win_p[9]     CORES|fla0_clk     GTP_DFF_PE     Q       counter_win_p[9]     0.290       997.547
+==========================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                                     Starting                                                                      Required            
+Instance                                                             Reference          Type           Pin     Net                                 Time         Slack  
+                                                                     Clock                                                                                             
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+u_debug_core_0.u_Storage_Condition.win_simplify\.trig_mask_win_p     CORES|fla0_clk     GTP_DFF_C      D       win_simplify\.trig_mask_win_p_0     1000.020     997.107
+u_debug_core_0.ram_wdat0                                             CORES|fla0_clk     GTP_DFF_C      D       ram_wdat0_s                         1000.020     997.302
+u_debug_core_0.u_Storage_Condition.counter_win_p[0]                  CORES|fla0_clk     GTP_DFF_PE     CE      un1_counter_win_p20_i_0             999.636      997.529
+u_debug_core_0.u_Storage_Condition.counter_win_p[1]                  CORES|fla0_clk     GTP_DFF_PE     CE      un1_counter_win_p20_i_0             999.636      997.529
+u_debug_core_0.u_Storage_Condition.counter_win_p[2]                  CORES|fla0_clk     GTP_DFF_PE     CE      un1_counter_win_p20_i_0             999.636      997.529
+u_debug_core_0.u_Storage_Condition.counter_win_p[3]                  CORES|fla0_clk     GTP_DFF_PE     CE      un1_counter_win_p20_i_0             999.636      997.529
+u_debug_core_0.u_Storage_Condition.counter_win_p[4]                  CORES|fla0_clk     GTP_DFF_PE     CE      un1_counter_win_p20_i_0             999.636      997.529
+u_debug_core_0.u_Storage_Condition.counter_win_p[5]                  CORES|fla0_clk     GTP_DFF_PE     CE      un1_counter_win_p20_i_0             999.636      997.529
+u_debug_core_0.u_Storage_Condition.counter_win_p[6]                  CORES|fla0_clk     GTP_DFF_PE     CE      un1_counter_win_p20_i_0             999.636      997.529
+u_debug_core_0.u_Storage_Condition.counter_win_p[7]                  CORES|fla0_clk     GTP_DFF_PE     CE      un1_counter_win_p20_i_0             999.636      997.529
+=======================================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      1000.000
+    - Setup time:                            -0.020
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         1000.020
+
+    - Propagation time:                      2.913
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 997.107
+
+    Number of logic level(s):                4
+    Starting point:                          u_debug_core_0.u_Storage_Condition.counter_win_p[6] / Q
+    Ending point:                            u_debug_core_0.u_Storage_Condition.win_simplify\.trig_mask_win_p / D
+    The start point is clocked by            CORES|fla0_clk [rising] on pin CLK
+    The end   point is clocked by            CORES|fla0_clk [rising] on pin CLK
+
+Instance / Net                                                                            Pin      Pin               Arrival     No. of    
+Name                                                                       Type           Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------------------------------------------------
+u_debug_core_0.u_Storage_Condition.counter_win_p[6]                        GTP_DFF_PE     Q        Out     0.290     0.290       -         
+counter_win_p[6]                                                           Net            -        -       0.378     -           4         
+u_debug_core_0.u_Storage_Condition.win_simplify\.trig_mask_win_p_3_0_0     GTP_LUT4       I1       In      -         0.668       -         
+u_debug_core_0.u_Storage_Condition.win_simplify\.trig_mask_win_p_3_0_0     GTP_LUT4       Z        Out     0.306     0.974       -         
+win_simplify\.trig_mask_win_p_3_0_0                                        Net            -        -       0.309     -           1         
+u_debug_core_0.u_Storage_Condition.win_simplify\.trig_mask_win_p_3_0_1     GTP_LUT5       I4       In      -         1.283       -         
+u_debug_core_0.u_Storage_Condition.win_simplify\.trig_mask_win_p_3_0_1     GTP_LUT5       Z        Out     0.176     1.459       -         
+win_simplify\.trig_mask_win_p_3_0_1                                        Net            -        -       0.309     -           1         
+u_debug_core_0.u_Storage_Condition.win_simplify\.trig_mask_win_p_3         GTP_LUT5       I2       In      -         1.768       -         
+u_debug_core_0.u_Storage_Condition.win_simplify\.trig_mask_win_p_3         GTP_LUT5       Z        Out     0.416     2.184       -         
+win_simplify\.trig_mask_win_p_3                                            Net            -        -       0.309     -           1         
+u_debug_core_0.u_Storage_Condition.win_simplify\.trig_mask_win_p_e         GTP_LUT5       I3       In      -         2.493       -         
+u_debug_core_0.u_Storage_Condition.win_simplify\.trig_mask_win_p_e         GTP_LUT5       Z        Out     0.420     2.913       -         
+win_simplify\.trig_mask_win_p_0                                            Net            -        -       0.000     -           1         
+u_debug_core_0.u_Storage_Condition.win_simplify\.trig_mask_win_p           GTP_DFF_C      D        In      -         2.913       -         
+===========================================================================================================================================
+Total path delay (propagation time + setup) of 2.893 is 1.588(54.9%) logic and 1.305(45.1%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: DebugCore_JCLK
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                   Starting                                                         Arrival           
+Instance                           Reference          Type          Pin     Net                     Time        Slack 
+                                   Clock                                                                              
+----------------------------------------------------------------------------------------------------------------------
+u_jtag_hub.d_ctrl\.data_ctrl       DebugCore_JCLK     GTP_DFF_C     Q       d_ctrl\.data_ctrl       0.290       23.265
+u_jtag_hub.shft\.shift_data[7]     DebugCore_JCLK     GTP_DFF_E     Q       shft\.shift_data[7]     0.290       23.639
+u_jtag_hub.shft\.shift_data[6]     DebugCore_JCLK     GTP_DFF_E     Q       shft\.shift_data[6]     0.290       23.749
+u_jtag_hub.shft\.shift_data[5]     DebugCore_JCLK     GTP_DFF_E     Q       shft\.shift_data[5]     0.290       23.807
+u_jtag_hub.shft\.shift_data[8]     DebugCore_JCLK     GTP_DFF_E     Q       shft\.shift_data[8]     0.290       23.882
+u_jtag_hub.shft\.shift_data[0]     DebugCore_JCLK     GTP_DFF_E     Q       shft\.shift_data[0]     0.290       24.398
+u_jtag_hub.shft\.shift_data[1]     DebugCore_JCLK     GTP_DFF_E     Q       shft\.shift_data[1]     0.290       24.398
+u_jtag_hub.shft\.shift_data[2]     DebugCore_JCLK     GTP_DFF_E     Q       shft\.shift_data[2]     0.290       24.398
+u_jtag_hub.shft\.shift_data[3]     DebugCore_JCLK     GTP_DFF_E     Q       shft\.shift_data[3]     0.290       24.398
+u_jtag_hub.shft\.shift_data[4]     DebugCore_JCLK     GTP_DFF_E     Q       shft\.shift_data[4]     0.290       24.398
+======================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                               Starting                                                           Required           
+Instance                       Reference          Type          Pin     Net                       Time         Slack 
+                               Clock                                                                                 
+---------------------------------------------------------------------------------------------------------------------
+u_jtag_hub.cs\.conf_sel[0]     DebugCore_JCLK     GTP_DFF_R     R       d_ctrl\.data_ctrl_i_0     24.699       23.265
+u_jtag_hub.cs\.conf_sel[1]     DebugCore_JCLK     GTP_DFF_R     R       d_ctrl\.data_ctrl_i_0     24.699       23.265
+u_jtag_hub.cs\.conf_sel[2]     DebugCore_JCLK     GTP_DFF_R     R       d_ctrl\.data_ctrl_i_0     24.699       23.265
+u_jtag_hub.cs\.conf_sel[3]     DebugCore_JCLK     GTP_DFF_R     R       d_ctrl\.data_ctrl_i_0     24.699       23.265
+u_jtag_hub.cs\.conf_sel[4]     DebugCore_JCLK     GTP_DFF_R     R       d_ctrl\.data_ctrl_i_0     24.699       23.265
+u_jtag_hub.cs\.conf_sel[5]     DebugCore_JCLK     GTP_DFF_R     R       d_ctrl\.data_ctrl_i_0     24.699       23.265
+u_jtag_hub.cs\.conf_sel[6]     DebugCore_JCLK     GTP_DFF_R     R       d_ctrl\.data_ctrl_i_0     24.699       23.265
+u_jtag_hub.cs\.conf_sel[7]     DebugCore_JCLK     GTP_DFF_R     R       d_ctrl\.data_ctrl_i_0     24.699       23.265
+u_jtag_hub.cs\.conf_sel[8]     DebugCore_JCLK     GTP_DFF_R     R       d_ctrl\.data_ctrl_i_0     24.699       23.265
+u_jtag_hub.cs\.conf_sel[9]     DebugCore_JCLK     GTP_DFF_R     R       d_ctrl\.data_ctrl_i_0     24.699       23.265
+=====================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      25.000
+    - Setup time:                            0.301
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         24.699
+
+    - Propagation time:                      1.434
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     23.265
+
+    Number of logic level(s):                1
+    Starting point:                          u_jtag_hub.d_ctrl\.data_ctrl / Q
+    Ending point:                            u_jtag_hub.cs\.conf_sel[0] / R
+    The start point is clocked by            DebugCore_JCLK [rising] on pin CLK
+    The end   point is clocked by            DebugCore_JCLK [falling] on pin CLK
+
+Instance / Net                                   Pin      Pin               Arrival     No. of    
+Name                               Type          Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------
+u_jtag_hub.d_ctrl\.data_ctrl       GTP_DFF_C     Q        Out     0.290     0.290       -         
+d_ctrl\.data_ctrl                  Net           -        -       0.401     -           5         
+u_jtag_hub.d_ctrl\.data_ctrl_i     GTP_INV       I        In      -         0.691       -         
+u_jtag_hub.d_ctrl\.data_ctrl_i     GTP_INV       Z        Out     0.000     0.691       -         
+d_ctrl\.data_ctrl_i_0              Net           -        -       0.744     -           20        
+u_jtag_hub.cs\.conf_sel[0]         GTP_DFF_R     R        In      -         1.434       -         
+==================================================================================================
+Total path delay (propagation time + setup) of 1.735 is 0.591(34.1%) logic and 1.144(65.9%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: System
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                       Starting                                                        Arrival           
+Instance               Reference     Type                 Pin          Net             Time        Slack 
+                       Clock                                                                             
+---------------------------------------------------------------------------------------------------------
+u_GTP_SCANCHAIN_PG     System        GTP_SCANCHAIN_E1     SHFTDR       shift_wire      0.000       48.439
+u_GTP_SCANCHAIN_PG     System        GTP_SCANCHAIN_E1     TDI_USER     tdi_wire        0.000       49.515
+u_GTP_SCANCHAIN_PG     System        GTP_SCANCHAIN_E1     UPDR         update_wire     0.000       49.538
+=========================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                   Starting                                                      Required           
+Instance                           Reference     Type          Pin     Net                       Time         Slack 
+                                   Clock                                                                            
+--------------------------------------------------------------------------------------------------------------------
+u_jtag_hub.shft\.shift_data[0]     System        GTP_DFF_E     CE      un1_shift_data8_i_0       49.645       48.439
+u_jtag_hub.shft\.shift_data[1]     System        GTP_DFF_E     CE      un1_shift_data8_i_0       49.645       48.439
+u_jtag_hub.shft\.shift_data[2]     System        GTP_DFF_E     CE      un1_shift_data8_i_0       49.645       48.439
+u_jtag_hub.shft\.shift_data[3]     System        GTP_DFF_E     CE      un1_shift_data8_i_0       49.645       48.439
+u_jtag_hub.shft\.shift_data[4]     System        GTP_DFF_E     CE      un1_shift_data8_i_0       49.645       48.439
+u_jtag_hub.shft\.shift_data[5]     System        GTP_DFF_E     CE      un1_shift_data8_i_0       49.645       48.439
+u_jtag_hub.shft\.shift_data[6]     System        GTP_DFF_E     CE      un1_shift_data8_i_0       49.645       48.439
+u_jtag_hub.shft\.shift_data[7]     System        GTP_DFF_E     CE      un1_shift_data8_i_0       49.645       48.439
+u_jtag_hub.shft\.shift_data[8]     System        GTP_DFF_E     CE      un1_shift_data8_i_0       49.645       48.439
+u_jtag_hub.shft\.shift_data[8]     System        GTP_DFF_E     D       shft\.shift_data_3[8]     50.023       49.234
+====================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      50.000
+    - Setup time:                            0.355
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         49.645
+
+    - Propagation time:                      1.206
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 48.439
+
+    Number of logic level(s):                1
+    Starting point:                          u_GTP_SCANCHAIN_PG / SHFTDR
+    Ending point:                            u_jtag_hub.shft\.shift_data[0] / CE
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            DebugCore_JCLK [rising] on pin CLK
+
+Instance / Net                                          Pin        Pin               Arrival     No. of    
+Name                               Type                 Name       Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------------------------
+u_GTP_SCANCHAIN_PG                 GTP_SCANCHAIN_E1     SHFTDR     Out     0.000     0.000       -         
+shift_wire                         Net                  -          -       0.538     -           11        
+u_jtag_hub.un1_shift_data8_i       GTP_LUT4             I3         In      -         0.538       -         
+u_jtag_hub.un1_shift_data8_i       GTP_LUT4             Z          Out     0.176     0.714       -         
+un1_shift_data8_i_0                Net                  -          -       0.492     -           9         
+u_jtag_hub.shft\.shift_data[0]     GTP_DFF_E            CE         In      -         1.206       -         
+===========================================================================================================
+Total path delay (propagation time + setup) of 1.561 is 0.531(34.0%) logic and 1.030(66.0%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+
+Finished final timing analysis (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:08s; Memory used current: 296MB peak: 333MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:08s; Memory used current: 296MB peak: 333MB)
+
+---------------------------------------
+Resource Usage Report for CORES 
+
+Mapping to part: pgl22gbg324-6
+Cell usage:
+GTP_DFF         156 uses
+GTP_DFF_C       598 uses
+GTP_DFF_CE      207 uses
+GTP_DFF_E       9 uses
+GTP_DFF_P       12 uses
+GTP_DFF_PE      22 uses
+GTP_DFF_R       20 uses
+GTP_DLATCH_CE   2 uses
+GTP_DRM18K      3 uses
+GTP_INV         16 uses
+GTP_LUT2        493 uses
+GTP_LUT3        74 uses
+GTP_LUT4        51 uses
+GTP_LUT5        137 uses
+GTP_LUT5CARRY   57 uses
+GTP_LUT5M       44 uses
+GTP_MUX2LUT6    29 uses
+GTP_MUX2LUT7    14 uses
+GTP_MUX2LUT8    2 uses
+GTP_SCANCHAIN_E1  1 use
+
+
+RAM/ROM usage summary
+
+
+Mapping Summary:
+Total LUTs: 856 of 17536 (4.88%)
+	LUTs as dram: 0 of 4440 (0.00%)
+	LUTs as logic: 856 
+Total Registers: 1024 of 26304 (3.89%)
+Total Latches: 2
+Total Muxes:   45
+
+DRM18K:
+Total DRM18K =  3 of 48 (6.25%)
+
+APMs:
+Total APMs =  0.00 of 30 (0.00%)
+
+Total I/O primitives =  0 of 240 (0.00%)
+
+
+ Number of unique control sets:              24
+ CLK(drck1_wire), C(GND), P(GND), CE(un1_shift_data8_i_0)		: 9
+ CLK(drck1_wire), C(sel_in_i_0), P(GND), CE(VCC)		: 1
+ CLK(drck1_wire), C(GND), P(GND), CE(VCC)		: 2
+ CLK(drck_in_i), R(d_ctrl\.data_ctrl_i_0), S(GND), CE(VCC)		: 20
+ CLK(drck1_wire), C(h_rstn_i_0), P(GND), CE(VCC)		: 19
+ CLK(drck1_wire), C(h_rstn_i_0), P(GND), CE(un1_newrst\.conf_rst_1)		: 5
+ CLK(capture_wire_i), C(h_rstn_i_0), P(GND), CE(conf_sel[0])		: 5
+ CLK(capture_wire_i), C(h_rstn_i_0), P(GND), CE(VCC)		: 6
+ CLK(drck1_wire), C(rstn_i_0), P(GND), CE(VCC)		: 9
+ CLK(drck1_wire), C(rstn_i_0), P(GND), CE(bit_cnte)		: 8
+ CLK(drck1_wire), C(h_rstn_i_0), P(GND), CE(un1_rst_conf_trig)		: 154
+ CLK(fla0_clk), C(h_rstn_i_0), P(GND), CE(VCC)		: 128
+ CLK(fla0_clk), C(match_single_to_all_1_sqmuxa), P(GND), CE(VCC)		: 56
+ CLK(fla0_clk), C(match_single_to_all_0_sqmuxa), P(GND), CE(VCC)		: 1
+ CLK(drck1_wire), C(h_rstn_i_0), P(GND), CE(un1_rst_conf)		: 15
+ CLK(fla0_clk), C(GND), P(h_rstn_i_0), CE(un1_counter_win_p20_i_0)		: 11
+ CLK(fla0_clk), C(h_rstn_i_0), P(GND), CE(winwrap_remove\.address_wine)		: 10
+ CLK(fla0_clk), C(GND), P(h_rstn_i_0), CE(un1_status_ff_en)		: 11
+ CLK(fla0_clk), C(GND), P(status_en_i_0), CE(VCC)		: 2
+ CLK(fla0_clk), C(GND), P(GND), CE(VCC)		: 154
+ CLK(drck1_wire), C(GND), P(h_rstn_i_0), CE(VCC)		: 8
+ CLK(drck1_wire), C(h_rstn_i_0), P(GND), CE(N_209_i_0)		: 10
+ CLK(fla0_clk), C(resetn_i_1), P(GND), CE(VCC)		: 378
+ CLK(fla0_clk), C(GND), P(resetn_i_1), CE(VCC)		: 2
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:08s; Memory used current: 148MB peak: 333MB)
+
+Process took 0h:00m:10s realtime, 0h:00m:08s cputime
+# Wed Jun 19 15:28:35 2019
+
+###########################################################]

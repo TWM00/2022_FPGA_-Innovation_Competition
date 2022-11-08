@@ -1,0 +1,75 @@
+#project files
+add_file -verilog  "I:/example_ziguang/demo/12_1_hdmi_test _char/source/source/color_bar.v"
+add_file -verilog  "I:/example_ziguang/demo/12_1_hdmi_test _char/source/source/top.v"
+add_file -verilog  "I:/example_ziguang/demo/12_1_hdmi_test _char/source/source/video_define.v"
+add_file -verilog  "I:/example_ziguang/demo/12_1_hdmi_test _char/source/dvi_tx/dvi_encoder.v"
+add_file -verilog  "I:/example_ziguang/demo/12_1_hdmi_test _char/source/dvi_tx/encode.v"
+add_file -verilog  "I:/example_ziguang/demo/12_1_hdmi_test _char/source/dvi_tx/serdes_4b_10to1.v"
+add_file -verilog  "I:/example_ziguang/demo/12_1_hdmi_test _char/source/src/osd_display.v"
+add_file -verilog  "I:/example_ziguang/demo/12_1_hdmi_test _char/source/src/timing_gen_xy.v"
+add_file -verilog  "I:/example_ziguang/demo/12_1_hdmi_test _char/source/example_ziguang/hdmi_test _char/ipcore/osd_rom/osd_rom.v"
+add_file -verilog  "I:/example_ziguang/demo/12_1_hdmi_test _char/source/example_ziguang/hdmi_test _char/ipcore/osd_rom/rtl/ipml_rom_v1_3_osd_rom.v"
+add_file -verilog  "I:/example_ziguang/demo/12_1_hdmi_test _char/ipcore/video_pll/video_pll.v"
+add_file -verilog  "I:/example_ziguang/demo/12_1_hdmi_test _char/source/example_ziguang/hdmi_test _char/ipcore/osd_rom/rtl/ipml_spram_v1_3_osd_rom.v"
+add_file -constraint "I:/example_ziguang/demo/12_1_hdmi_test _char/hdmi_test.fdc"
+
+#implementation: "synplify_impl"
+impl -add "I:/example_ziguang/demo/12_1_hdmi_test _char/synthesize/synplify_impl" -type fpga
+
+#device options
+set_option -technology Logos
+set_option -part PGL22G
+set_option -speed_grade -6
+set_option -package BG324
+set_option -part_companion ""
+
+#compilation/mapping options
+set_option -top_module top
+
+set_option -fanout_limit 10000
+set_option -disable_io_insertion 0
+set_option -update_models_cp 0
+set_option -rw_check_on_ram 0
+set_option -run_prop_extract 1
+set_option -resolve_multiple_driver 0
+
+set_option -symbolic_fsm_compiler 1
+set_option -resource_sharing 1
+set_option -pipe 1
+set_option -retiming 0
+set_option -distributed_compile 0
+
+set_option -frequency auto
+set_option -auto_constrain_io 0
+
+set_option -num_critical_paths 3
+
+set_option -vlog_std v2001
+set_option -compiler_compatible 0
+set_option -dup 0
+set_option -multi_file_compilation_unit 1
+set_option -beta_vfeatures 0
+set_option -synthesis_onoff_pragma 0
+set_option -vhdl2008 0
+set_option -supporttypedflt 0
+set_option -beta_vhfeatures 0
+set_option -default_enum_encoding default
+set_option -looplimit 2000
+set_option -project_relative_includes 1
+set_option -include_path {I:/example_ziguang/demo/12_1_hdmi_test _char}
+set_option -fix_gated_and_generated_clocks 1
+
+# Compiler Options
+set_option -auto_infer_blackbox 0
+
+# NFilter
+set_option -no_sequential_opt 0
+
+set_option -write_verilog 1
+set_option -write_apr_constraint 1
+
+#set result format/file last
+project -result_file synplify.vm
+
+#set log file
+project -log_file synplify.log

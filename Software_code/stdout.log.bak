@@ -1,0 +1,21 @@
+
+Starting:    C:\pango\PDS_2019.1-patch2\syn\bin64\mbin\synplify.exe
+Install:     C:\pango\PDS_2019.1-patch2\syn
+Hostname:    ALINX000007-PC
+Date:        Mon May 13 18:39:16 2019
+Version:     P-2019.03P-Beta2
+
+Arguments:   -product synplify_pro -licensetype synplifypro_pango -tcl D:/example_ziguang/hdmi_test _char/top_rtl.tcl
+ProductType: synplify_pro
+
+License checkout: synplifypro_pango
+License: synplifypro_pango node-locked 
+Licensed Vendor: pango
+
+
+
+NOTE:  This version of the software is not a production release. No warranty is made as to the general availability of features and functionality included in this version or described in the accompanying documentation. The final contents of a production release and its timing remain at the sole discretion of Synopsys.
+auto_infer_blackbox is not supported in current product.
+01251TCL script complete: "D:/example_ziguang/hdmi_test _char/top_rtl.tcl"
+1251exit status=0
+License checkin: synplifypro_pango

@@ -1,0 +1,48 @@
+##### Written on 2022/11/04 12:23:51 ###############################
+
+
+##### DESIGN INFO ##################################################
+
+Top Module:
+	top
+
+Constraint File(s):
+	D:/desktop/Plan/ZiGuang/hdmi_test.fdc
+	
+
+##### SUMMARY ######################################################
+
+Found 0 error(s), 0 critical warning(s), 2 warning(s), out of 77 constraint(s)
+
+
+Inapplicable constraints(except overwritten constraints):
+********************************************
+
+
+
+
+
+
+Constraints with issues:
+********************************************
+
+
+
+
+
+
+
+
+
+W: ConstraintEditor-4019: Port 'data_RGB' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'uart_rxd' unspecified I/O constraint.
+
+
+
+Constraints with matching wildcard expressions:
+********************************************
+
+
+
+
+

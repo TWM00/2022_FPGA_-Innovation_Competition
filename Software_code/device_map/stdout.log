@@ -1,0 +1,79 @@
+NOTE:  This version of the software is not a production release. No warranty is made as to the general availability of features and functionality included in this version or described in the accompanying documentation. The final contents of a production release and its timing remain at the sole discretion of Synopsys.
+
+Starting:    C:\pango\PDS_2019.1-patch2\syn\bin64\mbin\synbatch.exe
+Install:     C:\pango\PDS_2019.1-patch2\syn
+Hostname:    PC-201805041311
+Date:        Wed Jun 19 15:28:18 2019
+Version:     P-2019.03P-Beta2
+
+Arguments:   -product synplify_pro -licensetype synplifypro_pango -batch I:/example_ziguang/demo/12_1_hdmi_test _char/device_map/ins_rev/dbcore.prj -tclcmd project -run synthesis
+ProductType: synplify_pro
+
+License checkout: synplifypro_pango
+License: synplifypro_pango node-locked 
+Licensed Vendor: pango
+
+Running in Vendor Mode
+
+log file: "I:\example_ziguang\demo\12_1_hdmi_test _char\device_map\ins_rev\pango_rev\cores.srr"
+Running: pango_rev in foreground
+
+Running dbcore|pango_rev
+
+Running Flow: compile (Compile) on dbcore|pango_rev
+# Wed Jun 19 15:28:18 2019
+
+Running Flow: compile_flow (Compile Process) on dbcore|pango_rev
+# Wed Jun 19 15:28:18 2019
+
+Running: compiler (Compile Input) on dbcore|pango_rev
+# Wed Jun 19 15:28:18 2019
+Copied I:\example_ziguang\demo\12_1_hdmi_test _char\device_map\ins_rev\pango_rev\synwork\cores_comp.srs to I:\example_ziguang\demo\12_1_hdmi_test _char\device_map\ins_rev\pango_rev\cores.srs
+
+compiler completed
+# Wed Jun 19 15:28:21 2019
+
+Return Code: 0
+Run Time:00h:00m:03s
+
+Running: multi_srs_gen (Multi-srs Generator) on dbcore|pango_rev
+# Wed Jun 19 15:28:21 2019
+
+multi_srs_gen completed
+# Wed Jun 19 15:28:22 2019
+
+Return Code: 0
+Run Time:00h:00m:01s
+Copied I:\example_ziguang\demo\12_1_hdmi_test _char\device_map\ins_rev\pango_rev\synwork\cores_mult.srs to I:\example_ziguang\demo\12_1_hdmi_test _char\device_map\ins_rev\pango_rev\cores.srs
+Copied I:\example_ziguang\demo\12_1_hdmi_test _char\device_map\ins_rev\pango_rev\cores.srr to I:\example_ziguang\demo\12_1_hdmi_test _char\device_map\ins_synplify.log
+Complete: Compile Process on dbcore|pango_rev
+
+Running: premap (Premap) on dbcore|pango_rev
+# Wed Jun 19 15:28:22 2019
+
+premap completed with warnings
+# Wed Jun 19 15:28:24 2019
+
+Return Code: 1
+Run Time:00h:00m:02s
+Complete: Compile on dbcore|pango_rev
+
+Running Flow: map (Map) on dbcore|pango_rev
+# Wed Jun 19 15:28:24 2019
+
+Running: fpga_mapper (Map & Optimize) on dbcore|pango_rev
+# Wed Jun 19 15:28:24 2019
+Copied I:\example_ziguang\demo\12_1_hdmi_test _char\device_map\ins_rev\pango_rev\synwork\cores_m.srm to I:\example_ziguang\demo\12_1_hdmi_test _char\device_map\ins_rev\pango_rev\cores.srm
+
+fpga_mapper completed with warnings
+# Wed Jun 19 15:28:35 2019
+
+Return Code: 1
+Run Time:00h:00m:11s
+Complete: Map on dbcore|pango_rev
+Copied I:\example_ziguang\demo\12_1_hdmi_test _char\device_map\ins_rev\pango_rev\cores.srr to I:\example_ziguang\demo\12_1_hdmi_test _char\device_map\ins_synplify.log
+Complete: Logic Synthesis on dbcore|pango_rev
+Running TCL Command: "project -run synthesis"
+exit status=0
+exit status=0
+License checkin: synplifypro_pango

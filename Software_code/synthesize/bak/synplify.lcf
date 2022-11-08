@@ -1,0 +1,77 @@
+define_attribute {p:tmds_data_p[0]} {PAP_IO_OPEN_DRAIN} {OFF}
+define_attribute {p:tmds_data_p[0]} {PAP_IO_SLEW} {SLOW}
+define_attribute {p:tmds_data_p[0]} {PAP_IO_NONE} {TRUE}
+define_attribute {p:tmds_data_p[0]} {PAP_IO_DRIVE} {12}
+ define_attribute {p:tmds_data_p[0]} {PAP_IO_STANDARD} {LVTTL33}
+define_attribute {p:tmds_data_p[0]} {PAP_IO_VCCIO} {3.3}
+define_attribute {p:tmds_data_p[0]} {PAP_IO_LOC} {B14}
+define_attribute {p:tmds_data_p[0]} {PAP_IO_DIRECTION} {Output}
+define_attribute {p:tmds_data_p[1]} {PAP_IO_OPEN_DRAIN} {OFF}
+define_attribute {p:tmds_data_p[1]} {PAP_IO_SLEW} {SLOW}
+define_attribute {p:tmds_data_p[1]} {PAP_IO_NONE} {TRUE}
+define_attribute {p:tmds_data_p[1]} {PAP_IO_DRIVE} {12}
+ define_attribute {p:tmds_data_p[1]} {PAP_IO_STANDARD} {LVTTL33}
+define_attribute {p:tmds_data_p[1]} {PAP_IO_VCCIO} {3.3}
+define_attribute {p:tmds_data_p[1]} {PAP_IO_LOC} {B11}
+define_attribute {p:tmds_data_p[1]} {PAP_IO_DIRECTION} {Output}
+define_attribute {p:tmds_data_p[2]} {PAP_IO_OPEN_DRAIN} {OFF}
+define_attribute {p:tmds_data_p[2]} {PAP_IO_SLEW} {SLOW}
+define_attribute {p:tmds_data_p[2]} {PAP_IO_NONE} {TRUE}
+define_attribute {p:tmds_data_p[2]} {PAP_IO_DRIVE} {12}
+ define_attribute {p:tmds_data_p[2]} {PAP_IO_STANDARD} {LVTTL33}
+define_attribute {p:tmds_data_p[2]} {PAP_IO_VCCIO} {3.3}
+define_attribute {p:tmds_data_p[2]} {PAP_IO_LOC} {B10}
+define_attribute {p:tmds_data_p[2]} {PAP_IO_DIRECTION} {Output}
+define_attribute {p:tmds_data_n[0]} {PAP_IO_OPEN_DRAIN} {OFF}
+define_attribute {p:tmds_data_n[0]} {PAP_IO_SLEW} {SLOW}
+define_attribute {p:tmds_data_n[0]} {PAP_IO_NONE} {TRUE}
+define_attribute {p:tmds_data_n[0]} {PAP_IO_DRIVE} {12}
+ define_attribute {p:tmds_data_n[0]} {PAP_IO_STANDARD} {LVTTL33}
+define_attribute {p:tmds_data_n[0]} {PAP_IO_VCCIO} {3.3}
+define_attribute {p:tmds_data_n[0]} {PAP_IO_LOC} {A14}
+define_attribute {p:tmds_data_n[0]} {PAP_IO_DIRECTION} {Output}
+define_attribute {p:tmds_data_n[1]} {PAP_IO_OPEN_DRAIN} {OFF}
+define_attribute {p:tmds_data_n[1]} {PAP_IO_SLEW} {SLOW}
+define_attribute {p:tmds_data_n[1]} {PAP_IO_NONE} {TRUE}
+define_attribute {p:tmds_data_n[1]} {PAP_IO_DRIVE} {12}
+ define_attribute {p:tmds_data_n[1]} {PAP_IO_STANDARD} {LVTTL33}
+define_attribute {p:tmds_data_n[1]} {PAP_IO_VCCIO} {3.3}
+define_attribute {p:tmds_data_n[1]} {PAP_IO_LOC} {A11}
+define_attribute {p:tmds_data_n[1]} {PAP_IO_DIRECTION} {Output}
+define_attribute {p:tmds_data_n[2]} {PAP_IO_OPEN_DRAIN} {OFF}
+define_attribute {p:tmds_data_n[2]} {PAP_IO_SLEW} {SLOW}
+define_attribute {p:tmds_data_n[2]} {PAP_IO_NONE} {TRUE}
+define_attribute {p:tmds_data_n[2]} {PAP_IO_DRIVE} {12}
+ define_attribute {p:tmds_data_n[2]} {PAP_IO_STANDARD} {LVTTL33}
+define_attribute {p:tmds_data_n[2]} {PAP_IO_VCCIO} {3.3}
+define_attribute {p:tmds_data_n[2]} {PAP_IO_LOC} {A10}
+define_attribute {p:tmds_data_n[2]} {PAP_IO_DIRECTION} {Output}
+define_attribute {p:sys_clk} {PAP_IO_HYS_DRIVE_MODE} {NOHYS}
+define_attribute {p:sys_clk} {PAP_IO_NONE} {TRUE}
+define_attribute {p:sys_clk} {PAP_IO_STANDARD} {LVCMOS33}
+define_attribute {p:sys_clk} {PAP_IO_VCCIO} {3.3}
+define_attribute {p:sys_clk} {PAP_IO_LOC} {B5}
+define_attribute {p:sys_clk} {PAP_IO_DIRECTION} {Input}
+define_attribute {p:rst_n} {PAP_IO_HYS_DRIVE_MODE} {NOHYS}
+define_attribute {p:rst_n} {PAP_IO_NONE} {TRUE}
+define_attribute {p:rst_n} {PAP_IO_STANDARD} {LVCMOS33}
+define_attribute {p:rst_n} {PAP_IO_VCCIO} {3.3}
+define_attribute {p:rst_n} {PAP_IO_LOC} {U12}
+define_attribute {p:rst_n} {PAP_IO_DIRECTION} {Input}
+define_attribute {p:tmds_clk_p} {PAP_IO_OPEN_DRAIN} {OFF}
+define_attribute {p:tmds_clk_p} {PAP_IO_SLEW} {SLOW}
+define_attribute {p:tmds_clk_p} {PAP_IO_NONE} {TRUE}
+define_attribute {p:tmds_clk_p} {PAP_IO_DRIVE} {12}
+ define_attribute {p:tmds_clk_p} {PAP_IO_STANDARD} {LVTTL33}
+define_attribute {p:tmds_clk_p} {PAP_IO_VCCIO} {3.3}
+define_attribute {p:tmds_clk_p} {PAP_IO_LOC} {B16}
+define_attribute {p:tmds_clk_p} {PAP_IO_DIRECTION} {Output}
+define_attribute {p:tmds_clk_n} {PAP_IO_OPEN_DRAIN} {OFF}
+define_attribute {p:tmds_clk_n} {PAP_IO_SLEW} {SLOW}
+define_attribute {p:tmds_clk_n} {PAP_IO_NONE} {TRUE}
+define_attribute {p:tmds_clk_n} {PAP_IO_DRIVE} {12}
+ define_attribute {p:tmds_clk_n} {PAP_IO_STANDARD} {LVTTL33}
+define_attribute {p:tmds_clk_n} {PAP_IO_VCCIO} {3.3}
+define_attribute {p:tmds_clk_n} {PAP_IO_LOC} {A16}
+define_attribute {p:tmds_clk_n} {PAP_IO_DIRECTION} {Output}
+
